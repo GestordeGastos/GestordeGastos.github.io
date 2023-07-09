@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      margin: 0;
+      padding: 0;
+      background-image:url(/img/gastofondo.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Bacasime Antique', serif;
+    }
+    h1,h3 {
+      text-align: center;
+      color: #000000;
+      text-transform: uppercase;
+      font-size: 25px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      color: #000000;
+      font-size: 30px;
+    }
+    input[type="number"],
+    input[type="text"] {
+      width: 200px;
+      padding: 8px;
+      border: 1px solid #3498db;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    input[type="number"]:focus,
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #2980b9;
+    }
+    button {
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+    #presupuesto-container,
+    #gastos-container {
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    #gastos-container {
+      margin-top: 20px;
+    }
+    #presupuesto-total {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    #mensaje-alerta {
+      color: red;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    #gastos-list table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 25px;
+    }
+    #gastos-list th,
+    #gastos-list td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    #gastos-list th {
+      background-color: #f2f2f2;
+      color: #555;
+    }
+    #gastos-list td:last-child {
+      text-align: center;
+    }
+    #gastos-list button {
+      background-color: #e74c3c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    #gastos-list button:hover {
+      background-color: #c0392b;
+    }
+    #nombre-container,
+    #saludo-container {
+      text-align: center;
+
+    }
+    #saludo-container {
+      display: none;
+    }
+    #nombre-container input {
+      width: 200px;
+      padding: 8px;
+      border: 1px solid #3498db;
+      border-radius: 4px;
+    }
+    #nombre-container button {
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    #nombre-container button:hover {
+      background-color: #2980b9;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo img {
+      height: 90px;
+      border-radius: 100%;
+    }
+    
+    .nombre {
+      margin-left: 10px;
+      color: #000000;
+    }
+    
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    
+    nav li {
+      margin-right: 20px;
+      font-size: 30px;
+    }
+    
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    nav a:hover {
+      color: #f00;
+    }
+  .todo{
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 80%;
+  max-height: 98%;
+  box-shadow: 0 0 10px #0000004d;
+}

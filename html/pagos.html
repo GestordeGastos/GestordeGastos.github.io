@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagos a Realizar</title>
+  <link rel="stylesheet" href="/css/pagos.css">
+  
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="/index.html"><img src="/img/signodepeso.png" alt="Logo de la página"></a>
+      <h1 class="nombre">MoneyManager</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="informacion.html">Informacion</a></li>
+        <li><a href="gastos.html">Gastos</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <h1 class="titulodepag">Gestión de Pagos</h1>
+  <div class="todo">
+     <div class="container">
+    <form id="formulario-pago">
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha">
+      
+      <label for="monto">Monto:</label>
+      <input type="number" id="monto" placeholder="Ingrese el monto">
+      
+      <label for="descripcion">Descripción:</label>
+      <input type="text" id="descripcion" placeholder="Ingrese la descripción">
+      
+      <div id="categoria-container">
+        <label for="categoria">Categoría:</label>
+        <select id="categoria">
+          <option value="Servicios">Servicios</option>
+          <option value="Ropa">Uso Personal</option>
+          <option value="Tarjetas">Tarjetas</option>
+        </select>
+      </div>
+      
+      <input type="submit" value="Agregar Pago">
+    </form>
+
+    <div id="pagos-list"></div>
+  </div>
+</div>
+  <script src="/js/pagos.js"></script>
+</body>
+</html>

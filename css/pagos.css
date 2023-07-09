@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+body {
+   background-image:url(/img/pagofondo.jpg);
+   margin: 0;
+   padding: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: 'Bacasime Antique', serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 90px;
+    border-radius: 100%;
+  }
+  
+  .nombre {
+    margin-left: 10px;
+    color: #000000;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    font-size: 30px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f00;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"],
+  .btn-eliminar {
+    padding: 8px 16px;
+    font-size: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .btn-eliminar {
+    background-color: #e74c3c;
+  }
+  
+  #categoria-container {
+    margin-top: 10px;
+  }
+  
+  #pagos-list {
+    margin-top: 20px;
+  }
+  
+  #pagos-list table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 25px;
+  }
+  
+  #pagos-list th,
+  #pagos-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  #pagos-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .tiempo-restante {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+  .todo{
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 90%;
+    max-height: 98%;
+    box-shadow: 0 0 10px #0000004d;
+  }

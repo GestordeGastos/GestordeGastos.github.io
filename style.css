@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/fondoindex.jpg);
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ font-family: 'Bacasime Antique', serif;
+}
+.todo{
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 98%;
+  max-height: 98%;
+  box-shadow: 0 0 10px #00000073;
+  border-radius: 4%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 90px;
+  border-radius: 100%;
+}
+
+.nombre {
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+h2{
+  text-align: center;
+  margin-top:40px;
+  font-size: 45px;
+}
+.contai {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.conte {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.conte img {
+  width: 590px;
+  height: 550px;
+  margin-left: 80px;
+border-radius: 10%;
+}
+
+.texto {
+  flex: 1;
+}
+.texto p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btnver {
+padding: 10px 30px;
+background-color: #00f7ff;
+color: #fff;
+border-radius: 20px;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.3s ease;
+align-items: center;
+font-size: 25px;
+}
+
+.btnver:hover {
+background-color: #ff4444;
+}
